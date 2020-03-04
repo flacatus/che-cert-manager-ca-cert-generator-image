@@ -10,3 +10,4 @@
 TAG=$(git rev-parse --short HEAD)
 
 docker build -t quay.io/eclipse/che-cert-manager-ca-cert-generator:${TAG} .
+#[test]
